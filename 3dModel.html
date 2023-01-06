@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Loading a 3d Model Using A-Frame</title>
+	<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+	<a-scene>
+		<a-assets>
+			<a-asset-items id="ship" src="assets/scene.gltf"></a-asset-items>
+		</a-assets>
+		<a-entity gltf-model="assets/scene.gltf" scale="0.01 0.01 0.01" position="0.06 1.78 -6.33" rotation="0 -56.96 0"></a-entity>
+	</a-scene>
+</body>
+</html>
